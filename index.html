@@ -25,15 +25,18 @@
 </div>
 </div>
 
-<div style="width:100%; overflow:hidden; margin-top:125px;">
-<marquee>
+<div class="marquee" style="width:100%; overflow:hidden; margin-top:125px;">
 <div style="position: relative; left:-97%">
 <a href="#"><img style="width:100%;" src="images/slide1.png"/></a>
 <a href="#"><img style="width:100%;" src="images/slide2.png"/></a>
 <a href="#"><img style="width:100%;" src="images/slide3.png"/></a>
 </div>
-</marquee>
 </div>
+<script>
+$('.marquee').marquee({
+	duplicated: true
+});
+</script>
 
 <div style="margin-top:100px; width:100%; text-align:center;">
 <div style="width:80%; text-align:left; display:inline-block;">
